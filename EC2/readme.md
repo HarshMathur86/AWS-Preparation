@@ -105,7 +105,3 @@ systemctl restart httpd
 
 *This README was created to assist with Apache server setup and deployment on an AWS EC2 instance.*
 
-```
-
-Just paste this whole block into your `README.md` and you're good to go!
-```
