@@ -1,0 +1,119 @@
+<!-- This is a sample website for testing successful deployment to EC2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh's EC2 Deployment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f3;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        button {
+            background-color: #0077b6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #005f87;
+        }
+        .counter {
+            font-size: 18px;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        a {
+            color: #0077b6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Harsh's EC2 Server 🚀</h1>
+        <p>Static website hosted on AWS EC2</p>
+    </header>
+
+    <div class="container">
+        <h2>About This Site</h2>
+        <p>Hi, I'm <strong>Harsh</strong>. This is a sample static HTML site deployed on my EC2 instance using Apache/Nginx. If you're seeing this, my server is working perfectly! 🎉</p>
+
+        <h2>Click Counter</h2>
+        <button onclick="incrementCounter()">Click Me</button>
+        <div class="counter">Clicks: <span id="clickCount">0</span></div>
+
+        <h2>Random Image Gallery</h2>
+        <div class="gallery">
+            <img src="https://picsum.photos/400/250?random=1" alt="Sample Image 1">
+            <img src="https://picsum.photos/400/250?random=2" alt="Sample Image 2">
+            <img src="https://picsum.photos/400/250?random=3" alt="Sample Image 3">
+        </div>
+
+        <h2>Useful Links</h2>
+        <ul style="list-style:none; padding:0;">
+            <li><a href="https://aws.amazon.com/ec2/" target="_blank">Learn more about AWS EC2</a></li>
+            <li><a href="https://httpd.apache.org/" target="_blank">About Apache HTTP Server</a></li>
+            <li><a href="https://nginx.org/" target="_blank">About Nginx</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2025 Harsh's EC2 Deployment | Powered by AWS</p>
+    </footer>
+
+    <script>
+        let count = 0;
+        function incrementCounter() {
+            count++;
+            document.getElementById("clickCount").innerText = count;
+        }
+    </script>
+</body>
+</html>
