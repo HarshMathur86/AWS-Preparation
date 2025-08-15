@@ -125,7 +125,10 @@ systemctl restart httpd
 * [Apache HTTP Server Documentation](https://httpd.apache.org/docs/)
 * [AWS Security Groups](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
 
+
 ---
 
 *This README was created to assist with Apache server setup and deployment on an AWS EC2 instance.*
+
+![Live Server](./EC2.png)
 
