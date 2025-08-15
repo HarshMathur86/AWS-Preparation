@@ -1,6 +1,3 @@
-Sure! Here's the entire README content in plain text, ready for you to copy-paste directly into your README.md file:
-
-````
 # Apache Web Server Setup on AWS EC2
 
 This repository documents the steps to install and configure an Apache Web Server on an Amazon EC2 instance, publish a custom web page, and verify its functionality via a web browser.
@@ -92,6 +89,33 @@ systemctl restart httpd
 * Always verify your **Security Group** inbound rules to allow traffic on the required ports (e.g., port 80 for HTTP).
 * You can manage the Apache server with `systemctl` commands like `start`, `stop`, `restart`, and `status`.
 * For further customization, replace the contents of `/var/www/html/index.html` with your own HTML.
+
+---
+
+## Sample AWS & Linux Commands
+
+Below are some useful AWS CLI and Linux commands for EC2 and server management:
+
+```bash
+aws configure
+aws ec2 list
+aws ec2 describe-instances
+aws configure
+cd Downloads 
+ssh -i MyKey\ \(1\).pem ec2-user@54.234.65.26
+ssh -i MyKey.pem ec2-user@54.234.65.26
+chmod 400 MyKey.pem 
+ssh -i MyKey.pem ec2-user@54.234.65.26
+sudo su
+dnf update -y
+dnf install httpd -y
+vi index.html
+cat index.html 
+systemctl restart httpd
+rm index.html 
+vi index.html
+systemctl restart httpd
+```
 
 ---
 
