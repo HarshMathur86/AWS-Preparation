@@ -128,7 +128,7 @@ systemctl restart httpd
 
 ---
 
-*This README was created to assist with Apache server setup and deployment on an AWS EC2 instance.*
+*Deployed Website*
 
 ![Live Server](./EC2.png)
 
