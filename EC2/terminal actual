@@ -1,0 +1,1324 @@
+Last login: Sat Aug  9 11:12:48 on ttys001
+harshmathur@Harshs-MacBook ~ % ls
+Applications				Movies
+Desktop					Music
+Documents				Pictures
+Downloads				Public
+Google Drive				PycharmProjects
+IdeaProjects				VS Code Projects
+Library					[CodingNinjas] Introduction to C++
+harshmathur@Harshs-MacBook ~ % cd Downloads 
+harshmathur@Harshs-MacBook Downloads % ls
+AWS Certified Solutions Architect Slides v44.pdf
+MAR2025_AA78030194_TXN.pdf
+Mac Invoice.pdf
+MyKey.pem
+PPFAccountDetailsRet15-06-2025.pdf
+Resume.pdf
+Telegram
+aws-certified-developer-associate_3.pdf
+code_v2024-12-24
+code_v2024-12-24.zip
+harshmathur@Harshs-MacBook Downloads % 
+harshmathur@Harshs-MacBook Downloads % ls -la
+total 68608
+drwx------+ 14 harshmathur  staff       448 Aug  9 17:39 .
+drwxr-x---+ 40 harshmathur  staff      1280 Aug  9 17:39 ..
+-rw-r--r--@  1 harshmathur  staff      8196 Jul 24 20:48 .DS_Store
+-rw-r--r--   1 harshmathur  staff         0 Dec  1  2024 .localized
+-rw-r--r--@  1 harshmathur  staff  34019320 Jul 22 16:57 AWS Certified Solutions Architect Slides v44.pdf
+-rw-r--r--@  1 harshmathur  staff    368402 May 17 16:24 MAR2025_AA78030194_TXN.pdf
+-rw-r--r--@  1 harshmathur  staff     13459 Dec  4  2024 Mac Invoice.pdf
+-rw-r--r--@  1 harshmathur  staff      1678 Aug  9 17:39 MyKey.pem
+-rw-r--r--@  1 harshmathur  staff     24840 Jun 15 18:00 PPFAccountDetailsRet15-06-2025.pdf
+-rw-r--r--@  1 harshmathur  staff    365462 May 30 11:09 Resume.pdf
+drwxr-xr-x   3 harshmathur  staff        96 May  4 12:30 Telegram
+-rw-r--r--@  1 harshmathur  staff     97047 Jul 16 08:45 aws-certified-developer-associate_3.pdf
+drwx------@ 16 harshmathur  staff       512 Jul 24 20:49 code_v2024-12-24
+-rw-r--r--@  1 harshmathur  staff    207716 Jul 22 16:57 code_v2024-12-24.zip
+harshmathur@Harshs-MacBook Downloads % cd ..        
+harshmathur@Harshs-MacBook ~ % ls -l
+total 0
+drwx------@  8 harshmathur  staff   256 Apr 20 16:56 Applications
+drwx------+  7 harshmathur  staff   224 Aug  2 12:16 Desktop
+drwx------+  7 harshmathur  staff   224 Mar 11 22:08 Documents
+drwx------+ 14 harshmathur  staff   448 Aug  9 17:39 Downloads
+lrwx------   1 harshmathur  staff    82 Aug  8 09:24 Google Drive -> /Users/harshmathur/Library/CloudStorage/GoogleDrive-harsh.mathur.macbook@gmail.com
+drwxr-xr-x@  5 harshmathur  staff   160 Dec  5  2024 IdeaProjects
+drwx------@ 98 harshmathur  staff  3136 Jun 10 07:51 Library
+drwx------   5 harshmathur  staff   160 Dec  4  2024 Movies
+drwx------+  5 harshmathur  staff   160 Dec  4  2024 Music
+drwx------+  6 harshmathur  staff   192 Dec  4  2024 Pictures
+drwxr-xr-x+  5 harshmathur  staff   160 Jan  9  2025 Public
+drwxr-xr-x@  7 harshmathur  staff   224 Feb 25 14:11 PycharmProjects
+drwxr-xr-x@  5 harshmathur  staff   160 May  1 08:54 VS Code Projects
+drwx------@ 17 harshmathur  staff   544 Jun  3 19:51 [CodingNinjas] Introduction to C++
+harshmathur@Harshs-MacBook ~ % ls -la
+total 144
+drwxr-x---+ 40 harshmathur  staff   1280 Aug  9 17:39 .
+drwxr-xr-x   5 root         admin    160 Dec  2  2024 ..
+-r--------   1 harshmathur  staff      7 Dec  1  2024 .CFUserTextEncoding
+-rw-r--r--@  1 harshmathur  staff  16388 Aug  8 09:34 .DS_Store
+drwx------+  2 harshmathur  staff     64 Aug  5 21:26 .Trash
+drwxr-xr-x   4 harshmathur  staff    128 Dec 13  2024 .aws
+drwxr-xr-x@  4 harshmathur  staff    128 Mar 26 14:27 .config
+-rw-r--r--@  1 harshmathur  staff     51 Dec  5  2024 .gitconfig
+-rw-------   1 harshmathur  staff     20 Jul 16 11:11 .lesshst
+drwxr-xr-x@  3 harshmathur  staff     96 Apr  6 23:15 .local
+drwxr-xr-x@  4 harshmathur  staff    128 Dec  5  2024 .m2
+drwx------   4 harshmathur  staff    128 Feb 24 14:25 .mongodb
+drwxr-xr-x@  3 harshmathur  staff     96 Apr 20 17:18 .mono
+drwxr-xr-x   3 harshmathur  staff     96 Mar  5 10:09 .mounty
+-rw-------   1 harshmathur  staff     22 Jul 15 11:12 .node_repl_history
+drwxr-xr-x@  5 harshmathur  staff    160 May  3 14:01 .npm
+-rw-------@  1 harshmathur  staff    109 Feb 26 12:17 .python_history
+drwxr-xr-x@  8 harshmathur  staff    256 May  8 11:29 .redis-insight
+-rw-------   1 harshmathur  staff    102 Feb 25 10:42 .rediscli_history
+-rw-------   1 harshmathur  staff   1052 Dec  4  2024 .viminfo
+drwxr-xr-x@  5 harshmathur  staff    160 Dec  3  2024 .vscode
+-rw-r--r--   1 harshmathur  staff    209 Feb 26 09:52 .zprofile
+-rw-r--r--   1 harshmathur  staff     43 Feb 24 11:54 .zprofile.pysave
+-rw-------   1 harshmathur  staff  10863 Aug  9 11:48 .zsh_history
+drwx------  10 harshmathur  staff    320 Aug  9 17:39 .zsh_sessions
+-rw-r--r--   1 harshmathur  staff    162 Feb 26 10:02 .zshrc
+drwx------@  8 harshmathur  staff    256 Apr 20 16:56 Applications
+drwx------+  7 harshmathur  staff    224 Aug  2 12:16 Desktop
+drwx------+  7 harshmathur  staff    224 Mar 11 22:08 Documents
+drwx------+ 14 harshmathur  staff    448 Aug  9 17:39 Downloads
+lrwx------   1 harshmathur  staff     82 Aug  8 09:24 Google Drive -> /Users/harshmathur/Library/CloudStorage/GoogleDrive-harsh.mathur.macbook@gmail.com
+drwxr-xr-x@  5 harshmathur  staff    160 Dec  5  2024 IdeaProjects
+drwx------@ 98 harshmathur  staff   3136 Jun 10 07:51 Library
+drwx------   5 harshmathur  staff    160 Dec  4  2024 Movies
+drwx------+  5 harshmathur  staff    160 Dec  4  2024 Music
+drwx------+  6 harshmathur  staff    192 Dec  4  2024 Pictures
+drwxr-xr-x+  5 harshmathur  staff    160 Jan  9  2025 Public
+drwxr-xr-x@  7 harshmathur  staff    224 Feb 25 14:11 PycharmProjects
+drwxr-xr-x@  5 harshmathur  staff    160 May  1 08:54 VS Code Projects
+drwx------@ 17 harshmathur  staff    544 Jun  3 19:51 [CodingNinjas] Introduction to C++
+harshmathur@Harshs-MacBook ~ % aws confifure
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument command: Invalid choice, valid choices are:
+
+accessanalyzer                           | account                                 
+acm                                      | acm-pca                                 
+amp                                      | amplify                                 
+amplifybackend                           | amplifyuibuilder                        
+apigateway                               | apigatewaymanagementapi                 
+apigatewayv2                             | appconfig                               
+appconfigdata                            | appfabric                               
+appflow                                  | appintegrations                         
+application-autoscaling                  | application-insights                    
+application-signals                      | applicationcostprofiler                 
+appmesh                                  | apprunner                               
+appstream                                | appsync                                 
+apptest                                  | arc-zonal-shift                         
+artifact                                 | athena                                  
+auditmanager                             | autoscaling                             
+autoscaling-plans                        | b2bi                                    
+backup                                   | backup-gateway                          
+batch                                    | bcm-data-exports                        
+bcm-pricing-calculator                   | bedrock                                 
+bedrock-agent                            | bedrock-agent-runtime                   
+bedrock-data-automation                  | bedrock-data-automation-runtime         
+bedrock-runtime                          | billing                                 
+billingconductor                         | braket                                  
+budgets                                  | ce                                      
+chatbot                                  | chime                                   
+chime-sdk-identity                       | chime-sdk-media-pipelines               
+chime-sdk-meetings                       | chime-sdk-messaging                     
+chime-sdk-voice                          | cleanrooms                              
+cleanroomsml                             | cloud9                                  
+cloudcontrol                             | clouddirectory                          
+cloudformation                           | cloudfront                              
+cloudfront-keyvaluestore                 | cloudhsm                                
+cloudhsmv2                               | cloudsearch                             
+cloudsearchdomain                        | cloudtrail                              
+cloudtrail-data                          | cloudwatch                              
+codeartifact                             | codebuild                               
+codecatalyst                             | codecommit                              
+codeconnections                          | codeguru-reviewer                       
+codeguru-security                        | codeguruprofiler                        
+codepipeline                             | codestar-connections                    
+codestar-notifications                   | cognito-identity                        
+cognito-idp                              | cognito-sync                            
+comprehend                               | comprehendmedical                       
+compute-optimizer                        | connect                                 
+connect-contact-lens                     | connectcampaigns                        
+connectcampaignsv2                       | connectcases                            
+connectparticipant                       | controlcatalog                          
+controltower                             | cost-optimization-hub                   
+cur                                      | customer-profiles                       
+databrew                                 | dataexchange                            
+datapipeline                             | datasync                                
+datazone                                 | dax                                     
+deadline                                 | detective                               
+devicefarm                               | devops-guru                             
+directconnect                            | discovery                               
+dlm                                      | dms                                     
+docdb                                    | docdb-elastic                           
+drs                                      | ds                                      
+ds-data                                  | dsql                                    
+dynamodb                                 | dynamodbstreams                         
+ebs                                      | ec2                                     
+ec2-instance-connect                     | ecr                                     
+ecr-public                               | ecs                                     
+efs                                      | eks                                     
+eks-auth                                 | elastic-inference                       
+elasticache                              | elasticbeanstalk                        
+elastictranscoder                        | elb                                     
+elbv2                                    | emr                                     
+emr-containers                           | emr-serverless                          
+entityresolution                         | es                                      
+events                                   | evidently                               
+finspace                                 | finspace-data                           
+firehose                                 | fis                                     
+fms                                      | forecast                                
+forecastquery                            | frauddetector                           
+freetier                                 | fsx                                     
+gamelift                                 | geo-maps                                
+geo-places                               | geo-routes                              
+glacier                                  | globalaccelerator                       
+glue                                     | grafana                                 
+greengrass                               | greengrassv2                            
+groundstation                            | guardduty                               
+health                                   | healthlake                              
+iam                                      | identitystore                           
+imagebuilder                             | importexport                            
+inspector                                | inspector-scan                          
+inspector2                               | internetmonitor                         
+invoicing                                | iot                                     
+iot-data                                 | iot-jobs-data                           
+iot1click-devices                        | iot1click-projects                      
+iotanalytics                             | iotdeviceadvisor                        
+iotevents                                | iotevents-data                          
+iotfleethub                              | iotfleetwise                            
+iotsecuretunneling                       | iotsitewise                             
+iotthingsgraph                           | iottwinmaker                            
+iotwireless                              | ivs                                     
+ivs-realtime                             | ivschat                                 
+kafka                                    | kafkaconnect                            
+kendra                                   | kendra-ranking                          
+keyspaces                                | kinesis                                 
+kinesis-video-archived-media             | kinesis-video-media                     
+kinesis-video-signaling                  | kinesis-video-webrtc-storage            
+kinesisanalytics                         | kinesisanalyticsv2                      
+kinesisvideo                             | kms                                     
+lakeformation                            | lambda                                  
+launch-wizard                            | lex-models                              
+lex-runtime                              | lexv2-models                            
+lexv2-runtime                            | license-manager                         
+license-manager-linux-subscriptions      | license-manager-user-subscriptions      
+lightsail                                | location                                
+logs                                     | lookoutequipment                        
+lookoutmetrics                           | lookoutvision                           
+m2                                       | machinelearning                         
+macie2                                   | mailmanager                             
+managedblockchain                        | managedblockchain-query                 
+marketplace-agreement                    | marketplace-catalog                     
+marketplace-deployment                   | marketplace-entitlement                 
+marketplace-reporting                    | marketplacecommerceanalytics            
+mediaconnect                             | mediaconvert                            
+medialive                                | mediapackage                            
+mediapackage-vod                         | mediapackagev2                          
+mediastore                               | mediastore-data                         
+mediatailor                              | medical-imaging                         
+memorydb                                 | meteringmarketplace                     
+mgh                                      | mgn                                     
+migration-hub-refactor-spaces            | migrationhub-config                     
+migrationhuborchestrator                 | migrationhubstrategy                    
+mq                                       | mturk                                   
+mwaa                                     | neptune                                 
+neptune-graph                            | neptunedata                             
+network-firewall                         | networkflowmonitor                      
+networkmanager                           | networkmonitor                          
+notifications                            | notificationscontacts                   
+oam                                      | observabilityadmin                      
+omics                                    | opensearch                              
+opensearchserverless                     | opsworks                                
+opsworkscm                               | organizations                           
+osis                                     | outposts                                
+panorama                                 | partnercentral-selling                  
+payment-cryptography                     | payment-cryptography-data               
+pca-connector-ad                         | pca-connector-scep                      
+pcs                                      | personalize                             
+personalize-events                       | personalize-runtime                     
+pi                                       | pinpoint                                
+pinpoint-email                           | pinpoint-sms-voice                      
+pinpoint-sms-voice-v2                    | pipes                                   
+polly                                    | pricing                                 
+privatenetworks                          | proton                                  
+qapps                                    | qbusiness                               
+qconnect                                 | qldb                                    
+qldb-session                             | quicksight                              
+ram                                      | rbin                                    
+rds                                      | rds-data                                
+redshift                                 | redshift-data                           
+redshift-serverless                      | rekognition                             
+repostspace                              | resiliencehub                           
+resource-explorer-2                      | resource-groups                         
+resourcegroupstaggingapi                 | robomaker                               
+rolesanywhere                            | route53                                 
+route53-recovery-cluster                 | route53-recovery-control-config         
+route53-recovery-readiness               | route53domains                          
+route53profiles                          | route53resolver                         
+rum                                      | s3control                               
+s3outposts                               | s3tables                                
+sagemaker                                | sagemaker-a2i-runtime                   
+sagemaker-edge                           | sagemaker-featurestore-runtime          
+sagemaker-geospatial                     | sagemaker-metrics                       
+sagemaker-runtime                        | savingsplans                            
+scheduler                                | schemas                                 
+sdb                                      | secretsmanager                          
+security-ir                              | securityhub                             
+securitylake                             | serverlessrepo                          
+service-quotas                           | servicecatalog                          
+servicecatalog-appregistry               | servicediscovery                        
+ses                                      | sesv2                                   
+shield                                   | signer                                  
+simspaceweaver                           | sms                                     
+snow-device-management                   | snowball                                
+sns                                      | socialmessaging                         
+sqs                                      | ssm                                     
+ssm-contacts                             | ssm-incidents                           
+ssm-quicksetup                           | ssm-sap                                 
+sso                                      | sso-admin                               
+sso-oidc                                 | stepfunctions                           
+storagegateway                           | sts                                     
+supplychain                              | support                                 
+support-app                              | swf                                     
+synthetics                               | taxsettings                             
+textract                                 | timestream-influxdb                     
+timestream-query                         | timestream-write                        
+tnb                                      | transcribe                              
+transfer                                 | translate                               
+trustedadvisor                           | verifiedpermissions                     
+voice-id                                 | vpc-lattice                             
+waf                                      | waf-regional                            
+wafv2                                    | wellarchitected                         
+wisdom                                   | workdocs                                
+workmail                                 | workmailmessageflow                     
+workspaces                               | workspaces-thin-client                  
+workspaces-web                           | xray                                    
+s3api                                    | s3                                      
+ddb                                      | configure                               
+deploy                                   | configservice                           
+opsworks-cm                              | history                                 
+cli-dev                                  | help                                    
+
+
+Invalid choice: 'confifure', maybe you meant:
+
+  * configure
+
+harshmathur@Harshs-MacBook ~ % aws configure
+AWS Access Key ID [****************HM4D]: dummy
+AWS Secret Access Key [****************RLOL]: dummy
+Default region name [us-east-1]: 
+Default output format [json]: 
+harshmathur@Harshs-MacBook ~ % aws ec2 list
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument operation: Invalid choice, valid choices are:
+
+accept-address-transfer                  | accept-capacity-reservation-billing-ownership
+accept-reserved-instances-exchange-quote | accept-transit-gateway-multicast-domain-associations
+accept-transit-gateway-peering-attachment | accept-transit-gateway-vpc-attachment   
+accept-vpc-endpoint-connections          | accept-vpc-peering-connection           
+advertise-byoip-cidr                     | allocate-address                        
+allocate-hosts                           | allocate-ipam-pool-cidr                 
+apply-security-groups-to-client-vpn-target-network | assign-ipv6-addresses                   
+assign-private-ip-addresses              | assign-private-nat-gateway-address      
+associate-address                        | associate-capacity-reservation-billing-owner
+associate-client-vpn-target-network      | associate-dhcp-options                  
+associate-enclave-certificate-iam-role   | associate-iam-instance-profile          
+associate-instance-event-window          | associate-ipam-byoasn                   
+associate-ipam-resource-discovery        | associate-nat-gateway-address           
+associate-route-table                    | associate-security-group-vpc            
+associate-subnet-cidr-block              | associate-transit-gateway-multicast-domain
+associate-transit-gateway-policy-table   | associate-transit-gateway-route-table   
+associate-trunk-interface                | associate-vpc-cidr-block                
+attach-classic-link-vpc                  | attach-internet-gateway                 
+attach-network-interface                 | attach-verified-access-trust-provider   
+attach-volume                            | attach-vpn-gateway                      
+authorize-client-vpn-ingress             | authorize-security-group-egress         
+authorize-security-group-ingress         | bundle-instance                         
+cancel-bundle-task                       | cancel-capacity-reservation             
+cancel-capacity-reservation-fleets       | cancel-conversion-task                  
+cancel-declarative-policies-report       | cancel-export-task                      
+cancel-image-launch-permission           | cancel-import-task                      
+cancel-reserved-instances-listing        | cancel-spot-fleet-requests              
+cancel-spot-instance-requests            | confirm-product-instance                
+copy-fpga-image                          | copy-image                              
+copy-snapshot                            | create-capacity-reservation             
+create-capacity-reservation-by-splitting | create-capacity-reservation-fleet       
+create-carrier-gateway                   | create-client-vpn-endpoint              
+create-client-vpn-route                  | create-coip-cidr                        
+create-coip-pool                         | create-customer-gateway                 
+create-default-subnet                    | create-default-vpc                      
+create-dhcp-options                      | create-egress-only-internet-gateway     
+create-fleet                             | create-flow-logs                        
+create-fpga-image                        | create-image                            
+create-instance-connect-endpoint         | create-instance-event-window            
+create-instance-export-task              | create-internet-gateway                 
+create-ipam                              | create-ipam-external-resource-verification-token
+create-ipam-pool                         | create-ipam-resource-discovery          
+create-ipam-scope                        | create-key-pair                         
+create-launch-template                   | create-launch-template-version          
+create-local-gateway-route               | create-local-gateway-route-table        
+create-local-gateway-route-table-virtual-interface-group-association | create-local-gateway-route-table-vpc-association
+create-managed-prefix-list               | create-nat-gateway                      
+create-network-acl                       | create-network-acl-entry                
+create-network-insights-access-scope     | create-network-insights-path            
+create-network-interface                 | create-network-interface-permission     
+create-placement-group                   | create-public-ipv4-pool                 
+create-replace-root-volume-task          | create-reserved-instances-listing       
+create-restore-image-task                | create-route                            
+create-route-table                       | create-security-group                   
+create-snapshot                          | create-snapshots                        
+create-spot-datafeed-subscription        | create-store-image-task                 
+create-subnet                            | create-subnet-cidr-reservation          
+create-tags                              | create-traffic-mirror-filter            
+create-traffic-mirror-filter-rule        | create-traffic-mirror-session           
+create-traffic-mirror-target             | create-transit-gateway                  
+create-transit-gateway-connect           | create-transit-gateway-connect-peer     
+create-transit-gateway-multicast-domain  | create-transit-gateway-peering-attachment
+create-transit-gateway-policy-table      | create-transit-gateway-prefix-list-reference
+create-transit-gateway-route             | create-transit-gateway-route-table      
+create-transit-gateway-route-table-announcement | create-transit-gateway-vpc-attachment   
+create-verified-access-endpoint          | create-verified-access-group            
+create-verified-access-instance          | create-verified-access-trust-provider   
+create-volume                            | create-vpc                              
+create-vpc-block-public-access-exclusion | create-vpc-endpoint                     
+create-vpc-endpoint-connection-notification | create-vpc-endpoint-service-configuration
+create-vpc-peering-connection            | create-vpn-connection                   
+create-vpn-connection-route              | create-vpn-gateway                      
+delete-carrier-gateway                   | delete-client-vpn-endpoint              
+delete-client-vpn-route                  | delete-coip-cidr                        
+delete-coip-pool                         | delete-customer-gateway                 
+delete-dhcp-options                      | delete-egress-only-internet-gateway     
+delete-fleets                            | delete-flow-logs                        
+delete-fpga-image                        | delete-instance-connect-endpoint        
+delete-instance-event-window             | delete-internet-gateway                 
+delete-ipam                              | delete-ipam-external-resource-verification-token
+delete-ipam-pool                         | delete-ipam-resource-discovery          
+delete-ipam-scope                        | delete-key-pair                         
+delete-launch-template                   | delete-launch-template-versions         
+delete-local-gateway-route               | delete-local-gateway-route-table        
+delete-local-gateway-route-table-virtual-interface-group-association | delete-local-gateway-route-table-vpc-association
+delete-managed-prefix-list               | delete-nat-gateway                      
+delete-network-acl                       | delete-network-acl-entry                
+delete-network-insights-access-scope     | delete-network-insights-access-scope-analysis
+delete-network-insights-analysis         | delete-network-insights-path            
+delete-network-interface                 | delete-network-interface-permission     
+delete-placement-group                   | delete-public-ipv4-pool                 
+delete-queued-reserved-instances         | delete-route                            
+delete-route-table                       | delete-security-group                   
+delete-snapshot                          | delete-spot-datafeed-subscription       
+delete-subnet                            | delete-subnet-cidr-reservation          
+delete-tags                              | delete-traffic-mirror-filter            
+delete-traffic-mirror-filter-rule        | delete-traffic-mirror-session           
+delete-traffic-mirror-target             | delete-transit-gateway                  
+delete-transit-gateway-connect           | delete-transit-gateway-connect-peer     
+delete-transit-gateway-multicast-domain  | delete-transit-gateway-peering-attachment
+delete-transit-gateway-policy-table      | delete-transit-gateway-prefix-list-reference
+delete-transit-gateway-route             | delete-transit-gateway-route-table      
+delete-transit-gateway-route-table-announcement | delete-transit-gateway-vpc-attachment   
+delete-verified-access-endpoint          | delete-verified-access-group            
+delete-verified-access-instance          | delete-verified-access-trust-provider   
+delete-volume                            | delete-vpc                              
+delete-vpc-block-public-access-exclusion | delete-vpc-endpoint-connection-notifications
+delete-vpc-endpoint-service-configurations | delete-vpc-endpoints                    
+delete-vpc-peering-connection            | delete-vpn-connection                   
+delete-vpn-connection-route              | delete-vpn-gateway                      
+deprovision-byoip-cidr                   | deprovision-ipam-byoasn                 
+deprovision-ipam-pool-cidr               | deprovision-public-ipv4-pool-cidr       
+deregister-image                         | deregister-instance-event-notification-attributes
+deregister-transit-gateway-multicast-group-members | deregister-transit-gateway-multicast-group-sources
+describe-account-attributes              | describe-address-transfers              
+describe-addresses                       | describe-addresses-attribute            
+describe-aggregate-id-format             | describe-availability-zones             
+describe-aws-network-performance-metric-subscriptions | describe-bundle-tasks                   
+describe-byoip-cidrs                     | describe-capacity-block-extension-history
+describe-capacity-block-extension-offerings | describe-capacity-block-offerings       
+describe-capacity-reservation-billing-requests | describe-capacity-reservation-fleets    
+describe-capacity-reservations           | describe-carrier-gateways               
+describe-classic-link-instances          | describe-client-vpn-authorization-rules 
+describe-client-vpn-connections          | describe-client-vpn-endpoints           
+describe-client-vpn-routes               | describe-client-vpn-target-networks     
+describe-coip-pools                      | describe-conversion-tasks               
+describe-customer-gateways               | describe-declarative-policies-reports   
+describe-dhcp-options                    | describe-egress-only-internet-gateways  
+describe-elastic-gpus                    | describe-export-image-tasks             
+describe-export-tasks                    | describe-fast-launch-images             
+describe-fast-snapshot-restores          | describe-fleet-history                  
+describe-fleet-instances                 | describe-fleets                         
+describe-flow-logs                       | describe-fpga-image-attribute           
+describe-fpga-images                     | describe-host-reservation-offerings     
+describe-host-reservations               | describe-hosts                          
+describe-iam-instance-profile-associations | describe-id-format                      
+describe-identity-id-format              | describe-image-attribute                
+describe-images                          | describe-import-image-tasks             
+describe-import-snapshot-tasks           | describe-instance-attribute             
+describe-instance-connect-endpoints      | describe-instance-credit-specifications 
+describe-instance-event-notification-attributes | describe-instance-event-windows         
+describe-instance-image-metadata         | describe-instance-status                
+describe-instance-topology               | describe-instance-type-offerings        
+describe-instance-types                  | describe-instances                      
+describe-internet-gateways               | describe-ipam-byoasn                    
+describe-ipam-external-resource-verification-tokens | describe-ipam-pools                     
+describe-ipam-resource-discoveries       | describe-ipam-resource-discovery-associations
+describe-ipam-scopes                     | describe-ipams                          
+describe-ipv6-pools                      | describe-key-pairs                      
+describe-launch-template-versions        | describe-launch-templates               
+describe-local-gateway-route-table-virtual-interface-group-associations | describe-local-gateway-route-table-vpc-associations
+describe-local-gateway-route-tables      | describe-local-gateway-virtual-interface-groups
+describe-local-gateway-virtual-interfaces | describe-local-gateways                 
+describe-locked-snapshots                | describe-mac-hosts                      
+describe-managed-prefix-lists            | describe-moving-addresses               
+describe-nat-gateways                    | describe-network-acls                   
+describe-network-insights-access-scope-analyses | describe-network-insights-access-scopes 
+describe-network-insights-analyses       | describe-network-insights-paths         
+describe-network-interface-attribute     | describe-network-interface-permissions  
+describe-network-interfaces              | describe-placement-groups               
+describe-prefix-lists                    | describe-principal-id-format            
+describe-public-ipv4-pools               | describe-regions                        
+describe-replace-root-volume-tasks       | describe-reserved-instances             
+describe-reserved-instances-listings     | describe-reserved-instances-modifications
+describe-reserved-instances-offerings    | describe-route-tables                   
+describe-scheduled-instance-availability | describe-scheduled-instances            
+describe-security-group-references       | describe-security-group-rules           
+describe-security-group-vpc-associations | describe-security-groups                
+describe-snapshot-attribute              | describe-snapshot-tier-status           
+describe-snapshots                       | describe-spot-datafeed-subscription     
+describe-spot-fleet-instances            | describe-spot-fleet-request-history     
+describe-spot-fleet-requests             | describe-spot-instance-requests         
+describe-spot-price-history              | describe-stale-security-groups          
+describe-store-image-tasks               | describe-subnets                        
+describe-tags                            | describe-traffic-mirror-filter-rules    
+describe-traffic-mirror-filters          | describe-traffic-mirror-sessions        
+describe-traffic-mirror-targets          | describe-transit-gateway-attachments    
+describe-transit-gateway-connect-peers   | describe-transit-gateway-connects       
+describe-transit-gateway-multicast-domains | describe-transit-gateway-peering-attachments
+describe-transit-gateway-policy-tables   | describe-transit-gateway-route-table-announcements
+describe-transit-gateway-route-tables    | describe-transit-gateway-vpc-attachments
+describe-transit-gateways                | describe-trunk-interface-associations   
+describe-verified-access-endpoints       | describe-verified-access-groups         
+describe-verified-access-instance-logging-configurations | describe-verified-access-instances      
+describe-verified-access-trust-providers | describe-volume-attribute               
+describe-volume-status                   | describe-volumes                        
+describe-volumes-modifications           | describe-vpc-attribute                  
+describe-vpc-block-public-access-exclusions | describe-vpc-block-public-access-options
+describe-vpc-classic-link                | describe-vpc-classic-link-dns-support   
+describe-vpc-endpoint-associations       | describe-vpc-endpoint-connection-notifications
+describe-vpc-endpoint-connections        | describe-vpc-endpoint-service-configurations
+describe-vpc-endpoint-service-permissions | describe-vpc-endpoint-services          
+describe-vpc-endpoints                   | describe-vpc-peering-connections        
+describe-vpcs                            | describe-vpn-connections                
+describe-vpn-gateways                    | detach-classic-link-vpc                 
+detach-internet-gateway                  | detach-network-interface                
+detach-verified-access-trust-provider    | detach-volume                           
+detach-vpn-gateway                       | disable-address-transfer                
+disable-allowed-images-settings          | disable-aws-network-performance-metric-subscription
+disable-ebs-encryption-by-default        | disable-fast-launch                     
+disable-fast-snapshot-restores           | disable-image                           
+disable-image-block-public-access        | disable-image-deprecation               
+disable-image-deregistration-protection  | disable-ipam-organization-admin-account 
+disable-serial-console-access            | disable-snapshot-block-public-access    
+disable-transit-gateway-route-table-propagation | disable-vgw-route-propagation           
+disable-vpc-classic-link                 | disable-vpc-classic-link-dns-support    
+disassociate-address                     | disassociate-capacity-reservation-billing-owner
+disassociate-client-vpn-target-network   | disassociate-enclave-certificate-iam-role
+disassociate-iam-instance-profile        | disassociate-instance-event-window      
+disassociate-ipam-byoasn                 | disassociate-ipam-resource-discovery    
+disassociate-nat-gateway-address         | disassociate-route-table                
+disassociate-security-group-vpc          | disassociate-subnet-cidr-block          
+disassociate-transit-gateway-multicast-domain | disassociate-transit-gateway-policy-table
+disassociate-transit-gateway-route-table | disassociate-trunk-interface            
+disassociate-vpc-cidr-block              | enable-address-transfer                 
+enable-allowed-images-settings           | enable-aws-network-performance-metric-subscription
+enable-ebs-encryption-by-default         | enable-fast-launch                      
+enable-fast-snapshot-restores            | enable-image                            
+enable-image-block-public-access         | enable-image-deprecation                
+enable-image-deregistration-protection   | enable-ipam-organization-admin-account  
+enable-reachability-analyzer-organization-sharing | enable-serial-console-access            
+enable-snapshot-block-public-access      | enable-transit-gateway-route-table-propagation
+enable-vgw-route-propagation             | enable-volume-io                        
+enable-vpc-classic-link                  | enable-vpc-classic-link-dns-support     
+export-client-vpn-client-certificate-revocation-list | export-client-vpn-client-configuration  
+export-image                             | export-transit-gateway-routes           
+export-verified-access-instance-client-configuration | get-allowed-images-settings             
+get-associated-enclave-certificate-iam-roles | get-associated-ipv6-pool-cidrs          
+get-aws-network-performance-data         | get-capacity-reservation-usage          
+get-coip-pool-usage                      | get-console-output                      
+get-console-screenshot                   | get-declarative-policies-report-summary 
+get-default-credit-specification         | get-ebs-default-kms-key-id              
+get-ebs-encryption-by-default            | get-flow-logs-integration-template      
+get-groups-for-capacity-reservation      | get-host-reservation-purchase-preview   
+get-image-block-public-access-state      | get-instance-metadata-defaults          
+get-instance-tpm-ek-pub                  | get-instance-types-from-instance-requirements
+get-instance-uefi-data                   | get-ipam-address-history                
+get-ipam-discovered-accounts             | get-ipam-discovered-public-addresses    
+get-ipam-discovered-resource-cidrs       | get-ipam-pool-allocations               
+get-ipam-pool-cidrs                      | get-ipam-resource-cidrs                 
+get-launch-template-data                 | get-managed-prefix-list-associations    
+get-managed-prefix-list-entries          | get-network-insights-access-scope-analysis-findings
+get-network-insights-access-scope-content | get-password-data                       
+get-reserved-instances-exchange-quote    | get-security-groups-for-vpc             
+get-serial-console-access-status         | get-snapshot-block-public-access-state  
+get-spot-placement-scores                | get-subnet-cidr-reservations            
+get-transit-gateway-attachment-propagations | get-transit-gateway-multicast-domain-associations
+get-transit-gateway-policy-table-associations | get-transit-gateway-policy-table-entries
+get-transit-gateway-prefix-list-references | get-transit-gateway-route-table-associations
+get-transit-gateway-route-table-propagations | get-verified-access-endpoint-policy     
+get-verified-access-endpoint-targets     | get-verified-access-group-policy        
+get-vpn-connection-device-sample-configuration | get-vpn-connection-device-types         
+get-vpn-tunnel-replacement-status        | import-client-vpn-client-certificate-revocation-list
+import-image                             | import-key-pair                         
+import-snapshot                          | list-images-in-recycle-bin              
+list-snapshots-in-recycle-bin            | lock-snapshot                           
+modify-address-attribute                 | modify-availability-zone-group          
+modify-capacity-reservation              | modify-capacity-reservation-fleet       
+modify-client-vpn-endpoint               | modify-default-credit-specification     
+modify-ebs-default-kms-key-id            | modify-fleet                            
+modify-fpga-image-attribute              | modify-hosts                            
+modify-id-format                         | modify-identity-id-format               
+modify-image-attribute                   | modify-instance-attribute               
+modify-instance-capacity-reservation-attributes | modify-instance-cpu-options             
+modify-instance-credit-specification     | modify-instance-event-start-time        
+modify-instance-event-window             | modify-instance-maintenance-options     
+modify-instance-metadata-defaults        | modify-instance-metadata-options        
+modify-instance-network-performance-options | modify-instance-placement               
+modify-ipam                              | modify-ipam-pool                        
+modify-ipam-resource-cidr                | modify-ipam-resource-discovery          
+modify-ipam-scope                        | modify-launch-template                  
+modify-local-gateway-route               | modify-managed-prefix-list              
+modify-network-interface-attribute       | modify-private-dns-name-options         
+modify-reserved-instances                | modify-security-group-rules             
+modify-snapshot-attribute                | modify-snapshot-tier                    
+modify-spot-fleet-request                | modify-subnet-attribute                 
+modify-traffic-mirror-filter-network-services | modify-traffic-mirror-filter-rule       
+modify-traffic-mirror-session            | modify-transit-gateway                  
+modify-transit-gateway-prefix-list-reference | modify-transit-gateway-vpc-attachment   
+modify-verified-access-endpoint          | modify-verified-access-endpoint-policy  
+modify-verified-access-group             | modify-verified-access-group-policy     
+modify-verified-access-instance          | modify-verified-access-instance-logging-configuration
+modify-verified-access-trust-provider    | modify-volume                           
+modify-volume-attribute                  | modify-vpc-attribute                    
+modify-vpc-block-public-access-exclusion | modify-vpc-block-public-access-options  
+modify-vpc-endpoint                      | modify-vpc-endpoint-connection-notification
+modify-vpc-endpoint-service-configuration | modify-vpc-endpoint-service-payer-responsibility
+modify-vpc-endpoint-service-permissions  | modify-vpc-peering-connection-options   
+modify-vpc-tenancy                       | modify-vpn-connection                   
+modify-vpn-connection-options            | modify-vpn-tunnel-certificate           
+modify-vpn-tunnel-options                | monitor-instances                       
+move-address-to-vpc                      | move-byoip-cidr-to-ipam                 
+move-capacity-reservation-instances      | provision-byoip-cidr                    
+provision-ipam-byoasn                    | provision-ipam-pool-cidr                
+provision-public-ipv4-pool-cidr          | purchase-capacity-block                 
+purchase-capacity-block-extension        | purchase-host-reservation               
+purchase-reserved-instances-offering     | purchase-scheduled-instances            
+reboot-instances                         | register-image                          
+register-instance-event-notification-attributes | register-transit-gateway-multicast-group-members
+register-transit-gateway-multicast-group-sources | reject-capacity-reservation-billing-ownership
+reject-transit-gateway-multicast-domain-associations | reject-transit-gateway-peering-attachment
+reject-transit-gateway-vpc-attachment    | reject-vpc-endpoint-connections         
+reject-vpc-peering-connection            | release-address                         
+release-hosts                            | release-ipam-pool-allocation            
+replace-iam-instance-profile-association | replace-image-criteria-in-allowed-images-settings
+replace-network-acl-association          | replace-network-acl-entry               
+replace-route                            | replace-route-table-association         
+replace-transit-gateway-route            | replace-vpn-tunnel                      
+report-instance-status                   | request-spot-fleet                      
+request-spot-instances                   | reset-address-attribute                 
+reset-ebs-default-kms-key-id             | reset-fpga-image-attribute              
+reset-image-attribute                    | reset-instance-attribute                
+reset-network-interface-attribute        | reset-snapshot-attribute                
+restore-address-to-classic               | restore-image-from-recycle-bin          
+restore-managed-prefix-list-version      | restore-snapshot-from-recycle-bin       
+restore-snapshot-tier                    | revoke-client-vpn-ingress               
+revoke-security-group-egress             | revoke-security-group-ingress           
+run-instances                            | run-scheduled-instances                 
+search-local-gateway-routes              | search-transit-gateway-multicast-groups 
+search-transit-gateway-routes            | send-diagnostic-interrupt               
+start-declarative-policies-report        | start-instances                         
+start-network-insights-access-scope-analysis | start-network-insights-analysis         
+start-vpc-endpoint-service-private-dns-verification | stop-instances                          
+terminate-client-vpn-connections         | terminate-instances                     
+unassign-ipv6-addresses                  | unassign-private-ip-addresses           
+unassign-private-nat-gateway-address     | unlock-snapshot                         
+unmonitor-instances                      | update-security-group-rule-descriptions-egress
+update-security-group-rule-descriptions-ingress | withdraw-byoip-cidr                     
+wait                                     | help                                    
+
+harshmathur@Harshs-MacBook ~ % aws ec2 help
+harshmathur@Harshs-MacBook ~ % 
+harshmathur@Harshs-MacBook ~ % aws ec2 describe-instances
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-021a45ce1f3b1247e",
+            "OwnerId": "216158931093",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-08-09T12:12:53+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0be0bc8dc6a6f7cbc"
+                            }
+                        }
+                    ],
+                    "ClientToken": "58f67f55-3a17-43c6-bf66-798945ee9744",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-08-09T12:12:53+00:00",
+                                "AttachmentId": "eni-attach-04434ae724909d4f1",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-061f6bc5d746dae34",
+                                    "GroupName": "MyEC2Server_SG"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0e:f5:1c:75:64:d3",
+                            "NetworkInterfaceId": "eni-09e1291c68a7925aa",
+                            "OwnerId": "216158931093",
+                            "PrivateDnsName": "ip-172-31-16-160.ec2.internal",
+                            "PrivateIpAddress": "172.31.16.160",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-16-160.ec2.internal",
+                                    "PrivateIpAddress": "172.31.16.160"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-02c1d397b932ea444",
+                            "VpcId": "vpc-05bfd34c6098c8859",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-061f6bc5d746dae34",
+                            "GroupName": "MyEC2Server_SG"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "MyEC2"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-08-09T12:12:53+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0ed3627d449e1caf6",
+                    "ImageId": "ami-0de716d6197524dd9",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-172-31-16-160.ec2.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "MyKey",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2025-08-09T12:12:53+00:00",
+                    "Placement": {
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-east-1c"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-02c1d397b932ea444",
+                    "VpcId": "vpc-05bfd34c6098c8859",
+                    "PrivateIpAddress": "172.31.16.160"
+                }
+            ]
+        }
+    ]
+}
+harshmathur@Harshs-MacBook ~ % 
+harshmathur@Harshs-MacBook ~ % ls
+Applications				Google Drive				Music					VS Code Projects
+Desktop					IdeaProjects				Pictures				[CodingNinjas] Introduction to C++
+Documents				Library					Public
+Downloads				Movies					PycharmProjects
+harshmathur@Harshs-MacBook ~ % ls -la
+total 144
+drwxr-x---+ 40 harshmathur  staff   1280 Aug  9 17:47 .
+drwxr-xr-x   5 root         admin    160 Dec  2  2024 ..
+-r--------   1 harshmathur  staff      7 Dec  1  2024 .CFUserTextEncoding
+-rw-r--r--@  1 harshmathur  staff  16388 Aug  8 09:34 .DS_Store
+drwx------+  2 harshmathur  staff     64 Aug  5 21:26 .Trash
+drwxr-xr-x   4 harshmathur  staff    128 Dec 13  2024 .aws
+drwxr-xr-x@  4 harshmathur  staff    128 Mar 26 14:27 .config
+-rw-r--r--@  1 harshmathur  staff     51 Dec  5  2024 .gitconfig
+-rw-------   1 harshmathur  staff     20 Aug  9 17:47 .lesshst
+drwxr-xr-x@  3 harshmathur  staff     96 Apr  6 23:15 .local
+drwxr-xr-x@  4 harshmathur  staff    128 Dec  5  2024 .m2
+drwx------   4 harshmathur  staff    128 Feb 24 14:25 .mongodb
+drwxr-xr-x@  3 harshmathur  staff     96 Apr 20 17:18 .mono
+drwxr-xr-x   3 harshmathur  staff     96 Mar  5 10:09 .mounty
+-rw-------   1 harshmathur  staff     22 Jul 15 11:12 .node_repl_history
+drwxr-xr-x@  5 harshmathur  staff    160 May  3 14:01 .npm
+-rw-------@  1 harshmathur  staff    109 Feb 26 12:17 .python_history
+drwxr-xr-x@  8 harshmathur  staff    256 May  8 11:29 .redis-insight
+-rw-------   1 harshmathur  staff    102 Feb 25 10:42 .rediscli_history
+-rw-------   1 harshmathur  staff   1052 Dec  4  2024 .viminfo
+drwxr-xr-x@  5 harshmathur  staff    160 Dec  3  2024 .vscode
+-rw-r--r--   1 harshmathur  staff    209 Feb 26 09:52 .zprofile
+-rw-r--r--   1 harshmathur  staff     43 Feb 24 11:54 .zprofile.pysave
+-rw-------   1 harshmathur  staff  10863 Aug  9 11:48 .zsh_history
+drwx------  10 harshmathur  staff    320 Aug  9 17:39 .zsh_sessions
+-rw-r--r--   1 harshmathur  staff    162 Feb 26 10:02 .zshrc
+drwx------@  8 harshmathur  staff    256 Apr 20 16:56 Applications
+drwx------+  7 harshmathur  staff    224 Aug  2 12:16 Desktop
+drwx------+  7 harshmathur  staff    224 Mar 11 22:08 Documents
+drwx------+ 14 harshmathur  staff    448 Aug  9 17:39 Downloads
+lrwx------   1 harshmathur  staff     82 Aug  8 09:24 Google Drive -> /Users/harshmathur/Library/CloudStorage/GoogleDrive-harsh.mathur.macbook@gmail.com
+drwxr-xr-x@  5 harshmathur  staff    160 Dec  5  2024 IdeaProjects
+drwx------@ 98 harshmathur  staff   3136 Jun 10 07:51 Library
+drwx------   5 harshmathur  staff    160 Dec  4  2024 Movies
+drwx------+  5 harshmathur  staff    160 Dec  4  2024 Music
+drwx------+  6 harshmathur  staff    192 Dec  4  2024 Pictures
+drwxr-xr-x+  5 harshmathur  staff    160 Jan  9  2025 Public
+drwxr-xr-x@  7 harshmathur  staff    224 Feb 25 14:11 PycharmProjects
+drwxr-xr-x@  5 harshmathur  staff    160 May  1 08:54 VS Code Projects
+drwx------@ 17 harshmathur  staff    544 Jun  3 19:51 [CodingNinjas] Introduction to C++
+harshmathur@Harshs-MacBook ~ % aws s3 ls
+
+An error occurred (InvalidAccessKeyId) when calling the ListBuckets operation: The AWS Access Key Id you provided does not exist in our records.
+harshmathur@Harshs-MacBook ~ % ls -ls
+total 0
+0 drwx------@  8 harshmathur  staff   256 Apr 20 16:56 Applications
+0 drwx------+  7 harshmathur  staff   224 Aug  2 12:16 Desktop
+0 drwx------+  7 harshmathur  staff   224 Mar 11 22:08 Documents
+0 drwx------+ 14 harshmathur  staff   448 Aug  9 17:39 Downloads
+0 lrwx------   1 harshmathur  staff    82 Aug  8 09:24 Google Drive -> /Users/harshmathur/Library/CloudStorage/GoogleDrive-harsh.mathur.macbook@gmail.com
+0 drwxr-xr-x@  5 harshmathur  staff   160 Dec  5  2024 IdeaProjects
+0 drwx------@ 98 harshmathur  staff  3136 Jun 10 07:51 Library
+0 drwx------   5 harshmathur  staff   160 Dec  4  2024 Movies
+0 drwx------+  5 harshmathur  staff   160 Dec  4  2024 Music
+0 drwx------+  6 harshmathur  staff   192 Dec  4  2024 Pictures
+0 drwxr-xr-x+  5 harshmathur  staff   160 Jan  9  2025 Public
+0 drwxr-xr-x@  7 harshmathur  staff   224 Feb 25 14:11 PycharmProjects
+0 drwxr-xr-x@  5 harshmathur  staff   160 May  1 08:54 VS Code Projects
+0 drwx------@ 17 harshmathur  staff   544 Jun  3 19:51 [CodingNinjas] Introduction to C++
+harshmathur@Harshs-MacBook ~ % ls -la
+total 144
+drwxr-x---+ 40 harshmathur  staff   1280 Aug  9 17:47 .
+drwxr-xr-x   5 root         admin    160 Dec  2  2024 ..
+-r--------   1 harshmathur  staff      7 Dec  1  2024 .CFUserTextEncoding
+-rw-r--r--@  1 harshmathur  staff  16388 Aug  8 09:34 .DS_Store
+drwx------+  2 harshmathur  staff     64 Aug  5 21:26 .Trash
+drwxr-xr-x   4 harshmathur  staff    128 Dec 13  2024 .aws
+drwxr-xr-x@  4 harshmathur  staff    128 Mar 26 14:27 .config
+-rw-r--r--@  1 harshmathur  staff     51 Dec  5  2024 .gitconfig
+-rw-------   1 harshmathur  staff     20 Aug  9 17:47 .lesshst
+drwxr-xr-x@  3 harshmathur  staff     96 Apr  6 23:15 .local
+drwxr-xr-x@  4 harshmathur  staff    128 Dec  5  2024 .m2
+drwx------   4 harshmathur  staff    128 Feb 24 14:25 .mongodb
+drwxr-xr-x@  3 harshmathur  staff     96 Apr 20 17:18 .mono
+drwxr-xr-x   3 harshmathur  staff     96 Mar  5 10:09 .mounty
+-rw-------   1 harshmathur  staff     22 Jul 15 11:12 .node_repl_history
+drwxr-xr-x@  5 harshmathur  staff    160 May  3 14:01 .npm
+-rw-------@  1 harshmathur  staff    109 Feb 26 12:17 .python_history
+drwxr-xr-x@  8 harshmathur  staff    256 May  8 11:29 .redis-insight
+-rw-------   1 harshmathur  staff    102 Feb 25 10:42 .rediscli_history
+-rw-------   1 harshmathur  staff   1052 Dec  4  2024 .viminfo
+drwxr-xr-x@  5 harshmathur  staff    160 Dec  3  2024 .vscode
+-rw-r--r--   1 harshmathur  staff    209 Feb 26 09:52 .zprofile
+-rw-r--r--   1 harshmathur  staff     43 Feb 24 11:54 .zprofile.pysave
+-rw-------   1 harshmathur  staff  10863 Aug  9 11:48 .zsh_history
+drwx------  10 harshmathur  staff    320 Aug  9 17:39 .zsh_sessions
+-rw-r--r--   1 harshmathur  staff    162 Feb 26 10:02 .zshrc
+drwx------@  8 harshmathur  staff    256 Apr 20 16:56 Applications
+drwx------+  7 harshmathur  staff    224 Aug  2 12:16 Desktop
+drwx------+  7 harshmathur  staff    224 Mar 11 22:08 Documents
+drwx------+ 14 harshmathur  staff    448 Aug  9 17:39 Downloads
+lrwx------   1 harshmathur  staff     82 Aug  8 09:24 Google Drive -> /Users/harshmathur/Library/CloudStorage/GoogleDrive-harsh.mathur.macbook@gmail.com
+drwxr-xr-x@  5 harshmathur  staff    160 Dec  5  2024 IdeaProjects
+drwx------@ 98 harshmathur  staff   3136 Jun 10 07:51 Library
+drwx------   5 harshmathur  staff    160 Dec  4  2024 Movies
+drwx------+  5 harshmathur  staff    160 Dec  4  2024 Music
+drwx------+  6 harshmathur  staff    192 Dec  4  2024 Pictures
+drwxr-xr-x+  5 harshmathur  staff    160 Jan  9  2025 Public
+drwxr-xr-x@  7 harshmathur  staff    224 Feb 25 14:11 PycharmProjects
+drwxr-xr-x@  5 harshmathur  staff    160 May  1 08:54 VS Code Projects
+drwx------@ 17 harshmathur  staff    544 Jun  3 19:51 [CodingNinjas] Introduction to C++
+harshmathur@Harshs-MacBook ~ % ls -a
+.					.m2					.vscode					Google Drive
+..					.mongodb				.zprofile				IdeaProjects
+.CFUserTextEncoding			.mono					.zprofile.pysave			Library
+.DS_Store				.mounty					.zsh_history				Movies
+.Trash					.node_repl_history			.zsh_sessions				Music
+.aws					.npm					.zshrc					Pictures
+.config					.python_history				Applications				Public
+.gitconfig				.redis-insight				Desktop					PycharmProjects
+.lesshst				.rediscli_history			Documents				VS Code Projects
+.local					.viminfo				Downloads				[CodingNinjas] Introduction to C++
+harshmathur@Harshs-MacBook ~ % aws configure
+AWS Access Key ID [****************T2S6]: Dummy
+AWS Secret Access Key [****************1js0]: Dummy
+Default region name [us-east-1]: 
+Default output format [json]: 
+harshmathur@Harshs-MacBook ~ % cd Downloads 
+harshmathur@Harshs-MacBook Downloads % ssh -i MyKey\ \(1\).pem ec2-user@54.234.65.26
+The authenticity of host '54.234.65.26 (54.234.65.26)' can't be established.
+ED25519 key fingerprint is SHA256:P9wQ5FhxzAAmYz4Kt0QKd/+LJvAoAc2nps9CyHgG6QQ.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: no
+Host key verification failed.
+harshmathur@Harshs-MacBook Downloads % ssh -i MyKey.pem ec2-user@54.234.65.26
+The authenticity of host '54.234.65.26 (54.234.65.26)' can't be established.
+ED25519 key fingerprint is SHA256:P9wQ5FhxzAAmYz4Kt0QKd/+LJvAoAc2nps9CyHgG6QQ.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '54.234.65.26' (ED25519) to the list of known hosts.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for 'MyKey.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "MyKey.pem": bad permissions
+ec2-user@54.234.65.26: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+harshmathur@Harshs-MacBook Downloads % ls -la                                   
+total 68608
+drwx------+ 14 harshmathur  staff       448 Aug  9 18:00 .
+drwxr-x---+ 41 harshmathur  staff      1312 Aug  9 18:01 ..
+-rw-r--r--@  1 harshmathur  staff      8196 Jul 24 20:48 .DS_Store
+-rw-r--r--   1 harshmathur  staff         0 Dec  1  2024 .localized
+-rw-r--r--@  1 harshmathur  staff  34019320 Jul 22 16:57 AWS Certified Solutions Architect Slides v44.pdf
+-rw-r--r--@  1 harshmathur  staff    368402 May 17 16:24 MAR2025_AA78030194_TXN.pdf
+-rw-r--r--@  1 harshmathur  staff     13459 Dec  4  2024 Mac Invoice.pdf
+-rw-r--r--@  1 harshmathur  staff      1678 Aug  9 17:57 MyKey.pem
+-rw-r--r--@  1 harshmathur  staff     24840 Jun 15 18:00 PPFAccountDetailsRet15-06-2025.pdf
+-rw-r--r--@  1 harshmathur  staff    365462 May 30 11:09 Resume.pdf
+drwxr-xr-x   3 harshmathur  staff        96 May  4 12:30 Telegram
+-rw-r--r--@  1 harshmathur  staff     97047 Jul 16 08:45 aws-certified-developer-associate_3.pdf
+drwx------@ 16 harshmathur  staff       512 Jul 24 20:49 code_v2024-12-24
+-rw-r--r--@  1 harshmathur  staff    207716 Jul 22 16:57 code_v2024-12-24.zip
+harshmathur@Harshs-MacBook Downloads % chmod 400 MyKey.pem 
+harshmathur@Harshs-MacBook Downloads % ls-ls
+zsh: command not found: ls-ls
+harshmathur@Harshs-MacBook Downloads % ls -la
+total 68608
+drwx------+ 14 harshmathur  staff       448 Aug  9 18:00 .
+drwxr-x---+ 41 harshmathur  staff      1312 Aug  9 18:01 ..
+-rw-r--r--@  1 harshmathur  staff      8196 Jul 24 20:48 .DS_Store
+-rw-r--r--   1 harshmathur  staff         0 Dec  1  2024 .localized
+-rw-r--r--@  1 harshmathur  staff  34019320 Jul 22 16:57 AWS Certified Solutions Architect Slides v44.pdf
+-rw-r--r--@  1 harshmathur  staff    368402 May 17 16:24 MAR2025_AA78030194_TXN.pdf
+-rw-r--r--@  1 harshmathur  staff     13459 Dec  4  2024 Mac Invoice.pdf
+-r--------@  1 harshmathur  staff      1678 Aug  9 17:57 MyKey.pem
+-rw-r--r--@  1 harshmathur  staff     24840 Jun 15 18:00 PPFAccountDetailsRet15-06-2025.pdf
+-rw-r--r--@  1 harshmathur  staff    365462 May 30 11:09 Resume.pdf
+drwxr-xr-x   3 harshmathur  staff        96 May  4 12:30 Telegram
+-rw-r--r--@  1 harshmathur  staff     97047 Jul 16 08:45 aws-certified-developer-associate_3.pdf
+drwx------@ 16 harshmathur  staff       512 Jul 24 20:49 code_v2024-12-24
+-rw-r--r--@  1 harshmathur  staff    207716 Jul 22 16:57 code_v2024-12-24.zip
+harshmathur@Harshs-MacBook Downloads % ssh -i MyKey.pem ec2-user@54.234.65.26
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-30-24 ~]$ ls
+[ec2-user@ip-172-31-30-24 ~]$ ls- la
+-bash: ls-: command not found
+[ec2-user@ip-172-31-30-24 ~]$ ls -la
+total 12
+drwx------. 3 ec2-user ec2-user  74 Aug  9 12:28 .
+drwxr-xr-x. 3 root     root      22 Aug  9 12:28 ..
+-rw-r--r--. 1 ec2-user ec2-user  18 Jan 28  2023 .bash_logout
+-rw-r--r--. 1 ec2-user ec2-user 141 Jan 28  2023 .bash_profile
+-rw-r--r--. 1 ec2-user ec2-user 492 Jan 28  2023 .bashrc
+drwx------. 2 ec2-user ec2-user  29 Aug  9 12:28 .ssh
+[ec2-user@ip-172-31-30-24 ~]$ sudo su
+[root@ip-172-31-30-24 ec2-user]# dnf update -y
+Amazon Linux 2023 Kernel Livepatch repository                                                                                     161 kB/s |  19 kB     00:00    
+Dependencies resolved.
+Nothing to do.
+Complete!
+[root@ip-172-31-30-24 ec2-user]# dnf install httpd -y
+Last metadata expiration check: 0:00:34 ago on Sat Aug  9 12:35:45 2025.
+Dependencies resolved.
+==================================================================================================================================================================
+ Package                                    Architecture                  Version                                        Repository                          Size
+==================================================================================================================================================================
+Installing:
+ httpd                                      x86_64                        2.4.64-1.amzn2023.0.1                          amazonlinux                         47 k
+Installing dependencies:
+ apr                                        x86_64                        1.7.5-1.amzn2023.0.4                           amazonlinux                        129 k
+ apr-util                                   x86_64                        1.6.3-1.amzn2023.0.1                           amazonlinux                         98 k
+ generic-logos-httpd                        noarch                        18.0.0-12.amzn2023.0.3                         amazonlinux                         19 k
+ httpd-core                                 x86_64                        2.4.64-1.amzn2023.0.1                          amazonlinux                        1.4 M
+ httpd-filesystem                           noarch                        2.4.64-1.amzn2023.0.1                          amazonlinux                         13 k
+ httpd-tools                                x86_64                        2.4.64-1.amzn2023.0.1                          amazonlinux                         81 k
+ libbrotli                                  x86_64                        1.0.9-4.amzn2023.0.2                           amazonlinux                        315 k
+ mailcap                                    noarch                        2.1.49-3.amzn2023.0.3                          amazonlinux                         33 k
+Installing weak dependencies:
+ apr-util-openssl                           x86_64                        1.6.3-1.amzn2023.0.1                           amazonlinux                         17 k
+ mod_http2                                  x86_64                        2.0.27-1.amzn2023.0.3                          amazonlinux                        166 k
+ mod_lua                                    x86_64                        2.4.64-1.amzn2023.0.1                          amazonlinux                         60 k
+
+Transaction Summary
+==================================================================================================================================================================
+Install  12 Packages
+
+Total download size: 2.3 M
+Installed size: 6.9 M
+Downloading Packages:
+(1/12): apr-util-openssl-1.6.3-1.amzn2023.0.1.x86_64.rpm                                                                          481 kB/s |  17 kB     00:00    
+(2/12): apr-1.7.5-1.amzn2023.0.4.x86_64.rpm                                                                                       2.5 MB/s | 129 kB     00:00    
+(3/12): generic-logos-httpd-18.0.0-12.amzn2023.0.3.noarch.rpm                                                                     850 kB/s |  19 kB     00:00    
+(4/12): apr-util-1.6.3-1.amzn2023.0.1.x86_64.rpm                                                                                  1.4 MB/s |  98 kB     00:00    
+(5/12): httpd-2.4.64-1.amzn2023.0.1.x86_64.rpm                                                                                    2.0 MB/s |  47 kB     00:00    
+(6/12): httpd-filesystem-2.4.64-1.amzn2023.0.1.noarch.rpm                                                                         620 kB/s |  13 kB     00:00    
+(7/12): httpd-tools-2.4.64-1.amzn2023.0.1.x86_64.rpm                                                                              1.2 MB/s |  81 kB     00:00    
+(8/12): libbrotli-1.0.9-4.amzn2023.0.2.x86_64.rpm                                                                                 5.9 MB/s | 315 kB     00:00    
+(9/12): mailcap-2.1.49-3.amzn2023.0.3.noarch.rpm                                                                                  1.6 MB/s |  33 kB     00:00    
+(10/12): httpd-core-2.4.64-1.amzn2023.0.1.x86_64.rpm                                                                               11 MB/s | 1.4 MB     00:00    
+(11/12): mod_http2-2.0.27-1.amzn2023.0.3.x86_64.rpm                                                                               3.5 MB/s | 166 kB     00:00    
+(12/12): mod_lua-2.4.64-1.amzn2023.0.1.x86_64.rpm                                                                                 1.5 MB/s |  60 kB     00:00    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                             9.5 MB/s | 2.3 MB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                          1/1 
+  Installing       : apr-1.7.5-1.amzn2023.0.4.x86_64                                                                                                         1/12 
+  Installing       : apr-util-openssl-1.6.3-1.amzn2023.0.1.x86_64                                                                                            2/12 
+  Installing       : apr-util-1.6.3-1.amzn2023.0.1.x86_64                                                                                                    3/12 
+  Installing       : mailcap-2.1.49-3.amzn2023.0.3.noarch                                                                                                    4/12 
+  Installing       : httpd-tools-2.4.64-1.amzn2023.0.1.x86_64                                                                                                5/12 
+  Installing       : libbrotli-1.0.9-4.amzn2023.0.2.x86_64                                                                                                   6/12 
+  Running scriptlet: httpd-filesystem-2.4.64-1.amzn2023.0.1.noarch                                                                                           7/12 
+  Installing       : httpd-filesystem-2.4.64-1.amzn2023.0.1.noarch                                                                                           7/12 
+  Installing       : httpd-core-2.4.64-1.amzn2023.0.1.x86_64                                                                                                 8/12 
+  Installing       : mod_http2-2.0.27-1.amzn2023.0.3.x86_64                                                                                                  9/12 
+  Installing       : mod_lua-2.4.64-1.amzn2023.0.1.x86_64                                                                                                   10/12 
+  Installing       : generic-logos-httpd-18.0.0-12.amzn2023.0.3.noarch                                                                                      11/12 
+  Installing       : httpd-2.4.64-1.amzn2023.0.1.x86_64                                                                                                     12/12 
+  Running scriptlet: httpd-2.4.64-1.amzn2023.0.1.x86_64                                                                                                     12/12 
+  Verifying        : apr-1.7.5-1.amzn2023.0.4.x86_64                                                                                                         1/12 
+  Verifying        : apr-util-1.6.3-1.amzn2023.0.1.x86_64                                                                                                    2/12 
+  Verifying        : apr-util-openssl-1.6.3-1.amzn2023.0.1.x86_64                                                                                            3/12 
+  Verifying        : generic-logos-httpd-18.0.0-12.amzn2023.0.3.noarch                                                                                       4/12 
+  Verifying        : httpd-2.4.64-1.amzn2023.0.1.x86_64                                                                                                      5/12 
+  Verifying        : httpd-core-2.4.64-1.amzn2023.0.1.x86_64                                                                                                 6/12 
+  Verifying        : httpd-filesystem-2.4.64-1.amzn2023.0.1.noarch                                                                                           7/12 
+  Verifying        : httpd-tools-2.4.64-1.amzn2023.0.1.x86_64                                                                                                8/12 
+  Verifying        : libbrotli-1.0.9-4.amzn2023.0.2.x86_64                                                                                                   9/12 
+  Verifying        : mailcap-2.1.49-3.amzn2023.0.3.noarch                                                                                                   10/12 
+  Verifying        : mod_http2-2.0.27-1.amzn2023.0.3.x86_64                                                                                                 11/12 
+  Verifying        : mod_lua-2.4.64-1.amzn2023.0.1.x86_64                                                                                                   12/12 
+
+Installed:
+  apr-1.7.5-1.amzn2023.0.4.x86_64                           apr-util-1.6.3-1.amzn2023.0.1.x86_64             apr-util-openssl-1.6.3-1.amzn2023.0.1.x86_64        
+  generic-logos-httpd-18.0.0-12.amzn2023.0.3.noarch         httpd-2.4.64-1.amzn2023.0.1.x86_64               httpd-core-2.4.64-1.amzn2023.0.1.x86_64             
+  httpd-filesystem-2.4.64-1.amzn2023.0.1.noarch             httpd-tools-2.4.64-1.amzn2023.0.1.x86_64         libbrotli-1.0.9-4.amzn2023.0.2.x86_64               
+  mailcap-2.1.49-3.amzn2023.0.3.noarch                      mod_http2-2.0.27-1.amzn2023.0.3.x86_64           mod_lua-2.4.64-1.amzn2023.0.1.x86_64                
+
+Complete!
+[root@ip-172-31-30-24 ec2-user]# systemctl start httpd
+[root@ip-172-31-30-24 ec2-user]# systemctl nable httpd
+Unknown command verb nable.
+[root@ip-172-31-30-24 ec2-user]# systemctle nable httpd
+bash: systemctle: command not found
+[root@ip-172-31-30-24 ec2-user]# systemctl enable httpd
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+[root@ip-172-31-30-24 ec2-user]# systemctl start httpd
+[root@ip-172-31-30-24 ec2-user]# echo "<html>Hi this is harsh’s page</html>" > /var/www/html/index.html
+bash:  /var/www/html/index.html: No such file or directory
+[root@ip-172-31-30-24 ec2-user]# ls
+[root@ip-172-31-30-24 ec2-user]# cd /
+[root@ip-172-31-30-24 /]# ls
+bin  boot  dev  etc  home  lib  lib64  local  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+[root@ip-172-31-30-24 /]# echo "<html>Hi this is harsh’s page</html>" > /var/www/html/index.html
+bash:  /var/www/html/index.html: No such file or directory
+[root@ip-172-31-30-24 /]# cd var/
+[root@ip-172-31-30-24 var]# ls
+account  adm  cache  db  empty  ftp  games  kerberos  lib  local  lock  log  mail  nis  opt  preserve  run  spool  tmp  www  yp
+[root@ip-172-31-30-24 var]# ls -a
+.  ..  .updated  account  adm  cache  db  empty  ftp  games  kerberos  lib  local  lock  log  mail  nis  opt  preserve  run  spool  tmp  www  yp
+[root@ip-172-31-30-24 var]# cd www/html/
+[root@ip-172-31-30-24 html]# ls
+[root@ip-172-31-30-24 html]# echo "<html>Hi this is harsh’s page</html>" > index.html
+bash: echo <html>Hi this is harsh’s page</html> : No such file or directory
+[root@ip-172-31-30-24 html]# vi index.html
+[root@ip-172-31-30-24 html]# ls
+index.html   index.html
+[root@ip-172-31-30-24 html]# cat index.html 
+[root@ip-172-31-30-24 html]# ls
+index.html   index.html
+[root@ip-172-31-30-24 html]# rm index.html 
+rm: remove regular empty file 'index.html'? y
+[root@ip-172-31-30-24 html]# ls
+ index.html
+[root@ip-172-31-30-24 html]# ls -la
+total 0
+drwxr-xr-x. 2 root root 26 Aug  9 12:41 .
+drwxr-xr-x. 4 root root 33 Aug  9 12:36 ..
+-rw-r--r--. 1 root root  0 Aug  9 12:40  index.html
+[root@ip-172-31-30-24 html]# cat index.html
+cat: index.html: No such file or directory
+[root@ip-172-31-30-24 html]# sudoecho "<html>Hi this is harsh’s page</html>" > index.html
+bash: sudoecho <html>Hi this is harsh’s page</html> : No such file or directory
+[root@ip-172-31-30-24 html]# sudo echo "<html>Hi this is harsh’s page</html>" > index.html
+sudo: echo <html>Hi this is harsh’s page</html> : command not found
+[root@ip-172-31-30-24 html]# sudo vi index.html
+[root@ip-172-31-30-24 html]# ls
+index.html   index.html
+[root@ip-172-31-30-24 html]# ls
+index.html   index.html
+[root@ip-172-31-30-24 html]# cat index.html 
+<html>Hi, this is Harsh's page</html>
+[root@ip-172-31-30-24 html]# systemctl restart httpd
+[root@ip-172-31-30-24 html]# ls
+index.html   index.html
+[root@ip-172-31-30-24 html]# ls -la
+total 4
+drwxr-xr-x. 2 root root 44 Aug  9 12:44 .
+drwxr-xr-x. 4 root root 33 Aug  9 12:36 ..
+-rw-r--r--. 1 root root 38 Aug  9 12:44 index.html
+-rw-r--r--. 1 root root  0 Aug  9 12:43  index.html
+[root@ip-172-31-30-24 html]# ls -b
+index.html   index.html
+[root@ip-172-31-30-24 html]# rm -- " index.html"
+rm: cannot remove ' index.html': No such file or directory
+[root@ip-172-31-30-24 html]# vi index.html 
+[root@ip-172-31-30-24 html]# cat index.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample EC2 Deployment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My EC2 Server 🚀</h1>
+        <img src="https://picsum.photos/600/300" alt="Random Sample Image">
+        <p>This is a sample static HTML page deployed on an AWS EC2 instance using Apache or Nginx.</p>
+        <p>If you can see this page, your server setup is working correctly! 🎉</p>
+    </div>
+</body>
+</html>
+
+[root@ip-172-31-30-24 html]# systemctl restart httpd
+[root@ip-172-31-30-24 html]# vi index.html 
+[root@ip-172-31-30-24 html]# systemctl restart httpd
+[root@ip-172-31-30-24 html]# rm index.html 
+rm: remove regular file 'index.html'? y
+[root@ip-172-31-30-24 html]# vi index.html
+[root@ip-172-31-30-24 html]# cat index.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh's EC2 Deployment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f3;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        a {
+            color: #0077b6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Harsh's EC2 Server 🚀</h1>
+        <p>Static website hosted on AWS EC2</p>
+    </header>
+
+    <div class="container">
+        <h2>About This Site</h2>
+        <p>Hi, I'm <strong>Harsh</strong>. This is a sample static HTML site deployed on my EC2 instance using Apache/Nginx. If you're seeing this, my server is working perfectly! 🎉</p>
+
+        <h2>Random Image Gallery</h2>
+        <div class="gallery">
+            <img src="https://picsum.photos/400/250?random=1" alt="Sample Image 1">
+            <img src="https://picsum.photos/400/250?random=2" alt="Sample Image 2">
+            <img src="https://picsum.photos/400/250?random=3" alt="Sample Image 3">
+        </div>
+
+        <h2>Useful Links</h2>
+        <ul>
+            <li><a href="https://aws.amazon.com/ec2/" target="_blank">Learn more about AWS EC2</a></li>
+            <li><a href="https://httpd.apache.org/" target="_blank">About Apache HTTP Server</a></li>
+            <li><a href="https://nginx.org/" target="_blank">About Nginx</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2025 Harsh's EC2 Deployment | Powered by AWS</p>
+    </footer>
+</body>
+</html>
+
+[root@ip-172-31-30-24 html]# systemctl restart httpd
+[root@ip-172-31-30-24 html]# rm index.html 
+rm: remove regular file 'index.html'? y           
+[root@ip-172-31-30-24 html]# vi index.html
+[root@ip-172-31-30-24 html]# systemctl restart httpd
+[root@ip-172-31-30-24 html]# Read from remote host 54.234.65.26: Operation timed out
+Connection to 54.234.65.26 closed.
+client_loop: send disconnect: Broken pipe
+harshmathur@Harshs-MacBook Downloads %

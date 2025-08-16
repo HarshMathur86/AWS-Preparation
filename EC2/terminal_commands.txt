@@ -1,0 +1,23 @@
+ls
+ls -l
+ls -la
+cd Downloads
+ls
+ls -la
+cd ..
+aws configure
+aws ec2 describe-instances
+aws ec2 list
+aws s3 ls
+chmod 400 MyKey.pem
+ssh -i MyKey.pem ec2-user@54.234.65.26
+sudo su
+dnf update -y
+dnf install httpd -y
+cd /var/www/html
+vi index.html
+cat index.html
+systemctl restart httpd
+rm index.html
+vi index.html
+systemctl restart httpd
